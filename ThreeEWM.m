@@ -67,10 +67,12 @@ time2ss   = ss(1);
 
 figure("Name", "3EWM Pressure-Time Waveform")
 plot(t_prime, P)
+hold on;
+plot(t_prime, PP)
 title("Steady State 3EWM Pressure-Time Waveform")
 xlabel("Time (s)")
 ylabel("Pressure (mmHg)")
-%legend("P", "PP")
+legend("P", "PP")
 
 
 
